@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.okvir
+{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 800px;
+}
+
+.menu{
+    background: #FFEFBA; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    height: 50px;
+    border: dashed 5px black;
+}
+
+.igra{
+    background-color: yellow;
+    width: 400px;
+    margin-top: 10px;
+    height: 720px;
+    border: dashed 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jump{
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    color:#0a0a0a;
+	font-family:Arial;
+    font-weight: bold;
+	font-size:17px;
+    border: dashed 10px black;
+}
+
+#score{
+    position: relative;
+    top:6px;
+}
+
+#time{
+    position: relative;
+    left: 290px;
+    top:-20px;
+}
+
+.jedan{
+    display: block;
+}
+
+#dva{
+    position: relative;
+    display: none;
+    top:200px;
+}
+
